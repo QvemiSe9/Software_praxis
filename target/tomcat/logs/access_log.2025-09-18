@@ -1,0 +1,13 @@
+0:0:0:0:0:0:0:1 - - [18/Sep/2025:22:40:57 +0800] "GET /index/ HTTP/1.1" 404 - http-bio-8081-exec-1 0
+0:0:0:0:0:0:0:1 - - [18/Sep/2025:22:41:03 +0800] "GET /index HTTP/1.1" 404 - http-bio-8081-exec-3 0
+0:0:0:0:0:0:0:1 - - [18/Sep/2025:22:41:08 +0800] "GET / HTTP/1.1" 404 - http-bio-8081-exec-4 0
+0:0:0:0:0:0:0:1 - - [18/Sep/2025:22:41:19 +0800] "GET /Artwork-maven/ HTTP/1.1" 200 137 http-bio-8081-exec-5 436
+0:0:0:0:0:0:0:1 - - [18/Sep/2025:22:41:19 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8081-exec-6 0
+0:0:0:0:0:0:0:1 - - [18/Sep/2025:23:47:53 +0800] "GET /Artwork-maven/ HTTP/1.1" 200 137 http-bio-8081-exec-8 22
+0:0:0:0:0:0:0:1 - - [18/Sep/2025:23:48:08 +0800] "GET /Artwork-maven/Work_message HTTP/1.1" 404 1003 http-bio-8081-exec-10 9
+0:0:0:0:0:0:0:1 - - [18/Sep/2025:23:48:45 +0800] "GET /Artwork-maven/Work_messagehttp://localhost:8080/Artwork-maven/Work_message.jsp HTTP/1.1" 404 1107 http-bio-8081-exec-10 1
+0:0:0:0:0:0:0:1 - - [18/Sep/2025:23:48:47 +0800] "GET /Artwork-maven/Work_messagehttp://localhost:8080/Artwork-maven/Work_message.jsp HTTP/1.1" 404 1107 http-bio-8081-exec-10 1
+0:0:0:0:0:0:0:1 - - [18/Sep/2025:23:49:16 +0800] "GET /Artwork-maven/Work_message.jsp HTTP/1.1" 500 3140 http-bio-8081-exec-10 97
+0:0:0:0:0:0:0:1 - - [18/Sep/2025:23:51:47 +0800] "GET /Artwork-maven/Work_message.jsp HTTP/1.1" 200 1653 http-bio-8082-exec-1 700
+0:0:0:0:0:0:0:1 - - [18/Sep/2025:23:51:47 +0800] "GET /Artwork-maven/$%7Bwork_image%7D HTTP/1.1" 404 1013 http-bio-8082-exec-3 2
+0:0:0:0:0:0:0:1 - - [18/Sep/2025:23:51:47 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8082-exec-4 0

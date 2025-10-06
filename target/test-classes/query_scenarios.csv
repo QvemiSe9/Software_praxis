@@ -1,0 +1,7 @@
+orderId,orderFound,workId,workFound,workStatus,inTrade,expectedResult,expectedAttribute,showCancel,description
+DD00001,true,101,true,available,false,"商品状态正常","resultMessage",true,场景1：订单有效，商品可用
+DD00002,true,102,true,sold,false,"此商品已成功售罄","resultMessage",false,场景2：订单存在，但商品已售
+DD00003,true,103,true,frozen,true,"订单正在等待交易","resultMessage",false,场景3：商品冻结，且正在交易
+DD00004,true,104,true,frozen,false,"商品已被冻结","resultMessage",false,场景4：商品冻结，但未在交易
+DD00005,false,0,false,null,false,"未找到订单","errorMessage",false,场景5：订单号不存在
+DD00006,true,106,false,null,false,"关联的商品信息不存在","errorMessage",false,场景6：订单存在，但关联商品不存在

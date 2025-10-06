@@ -17,7 +17,7 @@ public class password_change_servlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
     @Override
-    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+	public void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         
         request.setCharacterEncoding("UTF-8");

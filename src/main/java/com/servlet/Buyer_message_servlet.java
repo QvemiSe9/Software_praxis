@@ -20,7 +20,7 @@ public class Buyer_message_servlet extends HttpServlet {
     private static final long serialVersionUID = -1970406637082738876L;
 
     @Override
-    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+	public void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         
         request.setCharacterEncoding("UTF-8");
@@ -70,7 +70,7 @@ public class Buyer_message_servlet extends HttpServlet {
     }
     
 
-    private void saveToReservation(String orderId, String orderTime, String name, String phone, String address, String time, int workId) 
+    public void saveToReservation(String orderId, String orderTime, String name, String phone, String address, String time, int workId) 
         throws SQLException, ClassNotFoundException {
         
         Connection connection = null;
@@ -185,7 +185,7 @@ public class Buyer_message_servlet extends HttpServlet {
     }
     
 
-    private Connection getConnection() throws SQLException, ClassNotFoundException {
+    public Connection getConnection() throws SQLException, ClassNotFoundException {
         String jdbcURL = "jdbc:sqlserver://localhost:1433;DatabaseName=Web;trustServerCertificate=true"; 
         String dbUser ="sa"; 
         String dbPassword =  "a1228671503";

@@ -22,14 +22,14 @@ public class Buyercheck_ordermessage extends HttpServlet {
      * 会触发此方法，我们将他们重定向回表单页面，并给出提示。
      */
     @Override
-    protected void doGet(HttpServletRequest request, HttpServletResponse response)
+	public void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         request.setAttribute("errorMessage", "请先输入订单号并点击查询按钮。");
         request.getRequestDispatcher("check_order.jsp").forward(request, response);
     }
 
     @Override
-    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+	public void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
         request.setCharacterEncoding("UTF-8");

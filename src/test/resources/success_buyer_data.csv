@@ -1,0 +1,4 @@
+buyer_name,buyer_phonenumber,trading_address,trading_time,mock_latest_work_id,mock_max_order_id,mock_work_name,mock_work_price,expected_order_id,expected_work_name,expected_work_price,description
+"王五","13912345678","测试地址","2025-12-01 18:00",101,"DD00004","测试商品","99.99","DD00005","测试商品","99.99","正常流程 - 预订成功"
+"李四","13800138000","未来科技城","2025-10-10 10:00",205,"DD00199","新商品","150.00","DD00200","新商品","150.00","正常流程 - 另一个用户"
+"张三","13711112222","科幻路1号","2024-01-01 09:00",5,"null","首个商品","10.00","DD00001","首个商品","10.00","边界场景 - 首单预订"

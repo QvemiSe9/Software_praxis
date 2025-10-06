@@ -1,0 +1,4 @@
+orderId,rowsAffected,throwException,expectedMessage,expectedAttribute,description
+DD00001,1,false,"订单 DD00001 已成功取消！",successMessage,场景1：成功取消订单
+DD00002,0,false,"取消失败，可能订单已被处理或不存在。",errorMessage,场景2：取消失败（订单不存在）
+DD00003,0,true,"数据库操作失败！",errorMessage,场景3：数据库操作时抛出异常

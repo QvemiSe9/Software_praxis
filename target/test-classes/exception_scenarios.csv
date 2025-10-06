@@ -1,0 +1,3 @@
+buyerName,phoneNumber,address,time,scenarioType,mockLatestWorkId,mockMaxOrderId,expectedCauseClass,expectedCauseMessage,description
+测试用户,13800138000,测试地址,2025-10-26 14:00,NO_WORK_ID,-1,null,javax.servlet.ServletException,"系统中当前没有任何可预订的商品。",当没有商品时应抛出ServletException
+测试用户,13800138000,测试地址,2025-10-26 15:00,DB_SAVE_FAIL,100,DD00004,java.sql.SQLException,"Test DB connection failed",当数据库保存失败时应抛出ServletException
